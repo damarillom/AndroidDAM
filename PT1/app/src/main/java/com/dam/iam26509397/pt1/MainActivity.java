@@ -1,18 +1,17 @@
-package com.dam.iam26509397.myapplication;
+package com.dam.iam26509397.pt1;
 
-import android.media.midi.MidiManager;
-import android.preference.PreferenceManager;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     String Tag = "MainActivity";
+    public static String EXTRA_MESSAGE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,19 +56,23 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show();
     }
 
+    public void help(View view) {
 
+        Intent intent = new Intent(this, AjudaActivity.class);
+        EditText editText = (EditText) findViewById(R.id.editText);
+        String message = editText.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
 
-    /*public void Calculator (View view){
-        EditText e1 = (EditText) findViewById(R.id.editText2);
-        EditText e2 = (EditText) findViewById(R.id.editText3);
-        TextView res = (TextView) findViewById(R.id.textView);
+    }
 
-        int num= Integer.parseInt(e1.getText().toString());
-        int num2= Integer.parseInt(e2.getText().toString());
-        int sum= num+num2;
-        res.setText(Integer.toString(sum));
+    public void singUp(View view) {
 
+        Intent intent = new Intent(this, RegistraActivity.class);
+        EditText editText = (EditText) findViewById(R.id.editText);
+        String message = editText.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
 
-    }*/
-
+    }
 }
