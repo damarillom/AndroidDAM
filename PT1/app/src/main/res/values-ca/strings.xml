@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">PT1</string>
+    <string name="user">Usuari</string>
+    <string name="email">Correu</string>
+    <string name="phone">Telèfon</string>
+    <string name="password">Password</string>
+    <string name="repeat">Pasword (repeteix)</string>
+    <string name="gender">Sexe</string>
+    <string name="male">Home</string>
+    <string name="female">Dona</string>
+    <string name="help">AJUDA</string>
+    <string name="create">CREA</string>
+    <string name="in">ENTRA</string>
+    <string name="up">NOU USUARI</string>
+    <string name="main">Activitat Principal</string>
+    <string name="registrate">Activitat Registra</string>
 </resources>

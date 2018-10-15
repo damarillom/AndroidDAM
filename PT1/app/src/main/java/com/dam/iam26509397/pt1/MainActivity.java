@@ -69,10 +69,17 @@ public class MainActivity extends AppCompatActivity {
     public void singUp(View view) {
 
         Intent intent = new Intent(this, RegistraActivity.class);
-        EditText editText = (EditText) findViewById(R.id.editText);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
 
+    }
+
+    public void entrar(View view) {
+        EditText user = (EditText) findViewById(R.id.editText);
+        EditText pass1 = (EditText) findViewById(R.id.editText3);
+        if (user.getText().toString().equals("") || pass1.getText().toString().equals("")) {
+            Toast.makeText(this, "Error: A field is empty", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show();
+        }
     }
 }

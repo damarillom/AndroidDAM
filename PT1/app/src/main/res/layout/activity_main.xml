@@ -53,7 +53,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sing in" />
+                android:onClick="entrar"
+                android:text="@string/in" />
 
             <Space
                 android:layout_width="288dp"
@@ -66,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="singUp"
-                android:text="Sing up" />
+                android:text="@string/up" />
 
         </LinearLayout>
 
@@ -80,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="help"
-            android:text="Help" />
+            android:text="@string/help" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

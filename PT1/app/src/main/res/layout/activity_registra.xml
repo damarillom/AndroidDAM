@@ -24,7 +24,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" User" />
+            android:text="@string/user" />
 
         <EditText
             android:id="@+id/editText2"
@@ -37,7 +37,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Email" />
+            android:text="@string/email" />
 
         <EditText
             android:id="@+id/editText12"
@@ -50,7 +50,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Phone" />
+            android:text="@string/phone" />
 
         <EditText
             android:id="@+id/editText11"
@@ -63,7 +63,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Password" />
+            android:text="@string/password" />
 
         <EditText
             android:id="@+id/editText9"
@@ -76,7 +76,7 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Password (repeat)" />
+            android:text="@string/repeat" />
 
         <EditText
             android:id="@+id/editText10"
@@ -89,7 +89,7 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Gender" />
+            android:text=" @string/gender" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -106,14 +106,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Male" />
+                    android:text="@string/male" />
 
                 <RadioButton
                     android:id="@+id/radioButton4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="female" />
+                    android:text="@string/female" />
             </RadioGroup>
 
         </LinearLayout>
@@ -136,7 +136,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Help" />
+            android:onClick="help"
+            android:text="@string/help" />
 
         <Space
             android:layout_width="wrap_content"
@@ -148,7 +149,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Create" />
+            android:onClick="crear"
+            android:text="@string/create" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
