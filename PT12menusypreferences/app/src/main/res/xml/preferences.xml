@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="benvingut"
+        android:key="edit_text_preference_1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="missatge" />
+    <ListPreference
+        android:entries="@array/pais"
+        android:entryValues="@array/codipais"
+        android:key="pais"
+        android:title="Pais"
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Color"
+        android:key="preference_color"
+        android:summaryOn="El color serà blau"
+        android:summaryOff="El color serà verd"
+        />
+</PreferenceScreen>

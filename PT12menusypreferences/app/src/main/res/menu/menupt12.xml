@@ -6,4 +6,6 @@
         android:id="@+id/preferences"/> //R.menu.preferences
     <item android:title="help"
         android:id="@+id/help"/>
+    <item android:title="whatsup"
+        android:id="@+id/whatsup"/>
 </menu>
