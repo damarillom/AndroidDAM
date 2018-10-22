@@ -13,6 +13,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -58,20 +60,46 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences= PreferenceManager.getDefaultSharedPreferences(this);
         String mess=sharedPreferences.getString("preference_message",null);
 
-        Toast toast=Toast.makeText(this,mess,Toast.LENGTH_LONG);
-        toast.show();
+        try {
+            Toast toast = Toast.makeText(this, mess, Toast.LENGTH_LONG);
+            toast.show();
 
-        Log.i("MainActivity",mess);
+            Log.i("MainActivity", mess);
 
-        LinearLayout layout=(LinearLayout) findViewById(R.id.activity_main);
+            LinearLayout layout = (LinearLayout) findViewById(R.id.activity_main);
 
-        layout.setBackgroundColor(Color.parseColor("#80ff80"));
-        if (sharedPreferences.getBoolean("preference_color", false)) {
-            layout.setBackgroundColor(Color.BLUE);
-        } else {
-            layout.setBackgroundColor(Color.GREEN);
+            layout.setBackgroundColor(Color.parseColor("#80ff80"));
+
+            if (sharedPreferences.getBoolean("preference_color", false)) {
+                layout.setBackgroundColor(Color.BLUE);
+            } else {
+                layout.setBackgroundColor(Color.GREEN);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
 
     }
+
+    //si aixo fos dins onClickUpper
+
+    public void onClickCamel (View view) {
+        EditText editText=(EditText) findViewById(R.id.editText);
+        /**String camel = editText.getText().toString();
+        if camel.isEmpty() {
+            Toast.makeText(this, "Alerta: entra un missatge!", Toast.LENGTH_SHORT).show();
+        }*/
+
+        if (editText.getText().toString().isEmpty()) {
+            return;
+        }
+        String[] camelPart;
+        String camel = editText.toString();
+        //camelPart=camel.split("\\s");
+        camelPart=editText.getText().toString().split("\\s"); //.split("||s");
+
+        //mirar stringBuilder
+    }
+
 }

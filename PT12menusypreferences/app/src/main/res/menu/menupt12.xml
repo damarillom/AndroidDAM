@@ -3,9 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:title="preferences"
-        android:id="@+id/preferences"/> //R.menu.preferences
+        android:id="@+id/preferences"
+        app:showAsAction="ifRoom" />
     <item android:title="help"
-        android:id="@+id/help"/>
+        android:id="@+id/help"
+        app:showAsAction="ifRoom|withText"/>
     <item android:title="whatsup"
+        android:icon="@drawable/ic_action_name"
         android:id="@+id/whatsup"/>
 </menu>
