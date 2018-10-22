@@ -19,6 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import java.net.URI;
+import java.nio.charset.CharsetEncoder;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -95,11 +96,24 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         String[] camelPart;
-        String camel = editText.toString();
+        String camel = "";
         //camelPart=camel.split("\\s");
-        camelPart=editText.getText().toString().split("\\s"); //.split("||s");
+        camelPart=editText.toString().split("\\s"); //.split("||s");
 
+
+        for (int i=0;i<camelPart.length;i++) {
+            char a = camelPart[i].charAt(0);
+            a= Character.toUpperCase(a);
+            camelPart[i].substring(1);
+
+
+            camel += ;
+        }
+
+
+        editText.setText(camel);
         //mirar stringBuilder
+        //no usar string builder
     }
 
 }
