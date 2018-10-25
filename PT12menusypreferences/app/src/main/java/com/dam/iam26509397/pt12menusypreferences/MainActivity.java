@@ -107,7 +107,9 @@ public class MainActivity extends AppCompatActivity {
             camelPart[i].substring(1);
 
 
-            camel += ;
+            camel += camel + " ";
+            //Log.d("onClickCamel", camel);
+            //editText= camel;
         }
 
 
