@@ -1,0 +1,158 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/df650246dc26e08dd5935d9d8cbfd272/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f0d283873381db85aa2a49efc6d63a6b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/839357a991317b7a33a2f1ff34c45d13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/42d9880cb7b2d0d80ddc85402df3a539/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/078bb40f8d0f2c45cfe76468a8ba5d72/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4a6940e060db3c39f14d037e88458301/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/54066b47e7da36b4539c7215727d89ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/bd0aa7105b073462ec41d40c7b279f17/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b5cfc26a2f8a46d83810202684894f98/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/77f3fb5810c38a7deaefbc882da2b6e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b75635bc94c01c52289cfd3543e5866e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ce81e011b541740def861adb278b31e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3866f01bebfb2dd59374b3587b1c0488/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b09ecb8a72541075aa4827540407a83c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/42d7076a65b940f9fd63e3e987775c76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c157d89f8ffd77819ff7ec9269ce6252/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77779f48ed4f48f1884220e86ab3edcb/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c2b4ecff05521b71b3772bd7a1fbc789/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5331753c232622b93661cb6abc01da51/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6396433fd5dc6ade77a8e1965d20ea7d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ab4f7ee32d841c936ab8aebb740022c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f51435001675fb8972d28f5ca7ee2587/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c114669b682d1548fff85a90c7581287/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/025692d5204e6cd551931df5a589547f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4d95d09bb2ddbf20dd5ea2d914d01c1d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e4c963819f2dab7c66d3c443ea512932/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e5cf5315e3df0ef40821fb54b16f4c4f/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f0d283873381db85aa2a49efc6d63a6b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f0d283873381db85aa2a49efc6d63a6b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c157d89f8ffd77819ff7ec9269ce6252/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c157d89f8ffd77819ff7ec9269ce6252/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77779f48ed4f48f1884220e86ab3edcb/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77779f48ed4f48f1884220e86ab3edcb/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c157d89f8ffd77819ff7ec9269ce6252/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:8:9-31
+	android:roundIcon
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.dam.ebarbeito.menuspreferences.MainActivity
+ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.dam.ebarbeito.menuspreferences.Preferences
+ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:19:9-58
+	android:name
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml:19:19-46
+uses-sdk
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/df650246dc26e08dd5935d9d8cbfd272/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/df650246dc26e08dd5935d9d8cbfd272/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f0d283873381db85aa2a49efc6d63a6b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f0d283873381db85aa2a49efc6d63a6b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/839357a991317b7a33a2f1ff34c45d13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/839357a991317b7a33a2f1ff34c45d13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/42d9880cb7b2d0d80ddc85402df3a539/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/42d9880cb7b2d0d80ddc85402df3a539/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/078bb40f8d0f2c45cfe76468a8ba5d72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/078bb40f8d0f2c45cfe76468a8ba5d72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4a6940e060db3c39f14d037e88458301/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4a6940e060db3c39f14d037e88458301/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/54066b47e7da36b4539c7215727d89ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/54066b47e7da36b4539c7215727d89ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/bd0aa7105b073462ec41d40c7b279f17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/bd0aa7105b073462ec41d40c7b279f17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b5cfc26a2f8a46d83810202684894f98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b5cfc26a2f8a46d83810202684894f98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/77f3fb5810c38a7deaefbc882da2b6e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/77f3fb5810c38a7deaefbc882da2b6e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b75635bc94c01c52289cfd3543e5866e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b75635bc94c01c52289cfd3543e5866e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ce81e011b541740def861adb278b31e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ce81e011b541740def861adb278b31e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3866f01bebfb2dd59374b3587b1c0488/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3866f01bebfb2dd59374b3587b1c0488/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b09ecb8a72541075aa4827540407a83c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b09ecb8a72541075aa4827540407a83c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/42d7076a65b940f9fd63e3e987775c76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/42d7076a65b940f9fd63e3e987775c76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c157d89f8ffd77819ff7ec9269ce6252/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c157d89f8ffd77819ff7ec9269ce6252/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77779f48ed4f48f1884220e86ab3edcb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/77779f48ed4f48f1884220e86ab3edcb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c2b4ecff05521b71b3772bd7a1fbc789/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c2b4ecff05521b71b3772bd7a1fbc789/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5331753c232622b93661cb6abc01da51/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5331753c232622b93661cb6abc01da51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6396433fd5dc6ade77a8e1965d20ea7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6396433fd5dc6ade77a8e1965d20ea7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ab4f7ee32d841c936ab8aebb740022c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ab4f7ee32d841c936ab8aebb740022c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f51435001675fb8972d28f5ca7ee2587/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f51435001675fb8972d28f5ca7ee2587/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c114669b682d1548fff85a90c7581287/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c114669b682d1548fff85a90c7581287/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/025692d5204e6cd551931df5a589547f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/025692d5204e6cd551931df5a589547f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4d95d09bb2ddbf20dd5ea2d914d01c1d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4d95d09bb2ddbf20dd5ea2d914d01c1d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e4c963819f2dab7c66d3c443ea512932/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e4c963819f2dab7c66d3c443ea512932/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e5cf5315e3df0ef40821fb54b16f4c4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/users/inf/wiam2/iam26509397/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e5cf5315e3df0ef40821fb54b16f4c4f/AndroidManifest.xml:20:5-44
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+		ADDED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml
+		INJECTED from /home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/src/main/AndroidManifest.xml

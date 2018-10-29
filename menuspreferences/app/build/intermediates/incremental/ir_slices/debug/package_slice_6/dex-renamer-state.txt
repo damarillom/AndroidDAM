@@ -1,0 +1,4 @@
+#Thu Oct 25 19:34:08 CEST 2018
+base.0=/home/users/inf/wiam2/iam26509397/AndroidStudioProjects/menuspreferences/app/build/intermediates/transforms/dexMerger/debug/25
+path.0=classes.dex
+renamed.0=classes.dex
