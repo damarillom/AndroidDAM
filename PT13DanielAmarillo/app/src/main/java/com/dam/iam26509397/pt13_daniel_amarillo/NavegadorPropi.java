@@ -24,7 +24,7 @@ public class NavegadorPropi extends AppCompatActivity {
         WebView myWebView = (WebView) findViewById(R.id.webview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        myWebView.setWebViewClient(new WebViewClient());
+        myWebView.setWebViewClient(new MyWebViewClient());
         myWebView.loadUrl("http://www.escoladeltreball.org");
 
         /**WebView myWebView = (WebView) findViewById(R.id.webview);
@@ -45,7 +45,9 @@ public class NavegadorPropi extends AppCompatActivity {
                 Log.d("Escola del treball", "No es escola del treball");
                 // Otherwise, the link is not for a page on my site, so launch another Activity that handles URLs
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(intent);
+                String title = getResources().getString(R.string.chooser_title2);
+                Intent chooser=Intent.createChooser(intent,title);
+                startActivity(chooser);
                 return true;
             //} catch (Exception e) {
             //    e.printStackTrace();

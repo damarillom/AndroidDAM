@@ -82,13 +82,16 @@ public class Proves extends AppCompatActivity {
                 //Intent intent = new Intent(Proves.this, NavegadorPropi.class);
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 //intent.putExtra(Intent.ACTION_VIEW, Uri.parse(url));
-
-                startActivity(intent);
+                String title = getResources().getString(R.string.chooser_title2);
+                Intent chooser=Intent.createChooser(intent,title);
+                startActivity(chooser);
             } else if (url.isEmpty()) {
                 Toast.makeText(this, "Introduca una URL", Toast.LENGTH_SHORT).show();
             } else if (urlPart1.equals("http://www.") && (urlPart2.equals(".com") || urlPart2.equals(".org") ) ) {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(browserIntent);
+                String title = getResources().getString(R.string.chooser_title2);
+                Intent chooser=Intent.createChooser(browserIntent,title);
+                startActivity(chooser);
             } else {
                 Toast.makeText(this, "URL incorrecta", Toast.LENGTH_SHORT).show();
             }
