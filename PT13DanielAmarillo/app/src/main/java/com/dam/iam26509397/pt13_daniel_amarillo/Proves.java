@@ -1,23 +1,46 @@
 package com.dam.iam26509397.pt13_daniel_amarillo;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.net.Uri;
+import android.os.BatteryManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.regex.Pattern;
 
 public class Proves extends AppCompatActivity {
     //Emulador: Nexus 5X API 27
+
+    private Context mContext;
+
+    private TextView mTextViewInfo;
+    private TextView mTextViewPercentage;
+    private ProgressBar mProgressBar;
+    private int mProgressStatus = 0;
+
+    private TextView mBatteryLevelText;
+    private ProgressBar mBatteryLevelProgress;
+    private BroadcastReceiver mReceiver;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        registerReceiver(mBatInfoReceiver, new IntentFilter(Intent.ACTION_BATTERY_LOW));
+
+        //IntentFilter iFilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+        //mContext.registerReceiver(mBroadcastReceiver,iFilter);
     }
 
     public void onClickMissatge(View v) {
@@ -75,6 +98,18 @@ public class Proves extends AppCompatActivity {
 
 
     }
+
+
+
+    //private class BatteryBroadcastReceiver extends BroadcastReceiver {
+    private BroadcastReceiver mBatInfoReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            //Toast.makeText(context, "Bateria baja", Toast.LENGTH_SHORT).show();
+            Intent battery = new Intent(Proves.this, BatteryReceiver.class);
+            startActivity(battery);
+        }
+    };
 
 
 }

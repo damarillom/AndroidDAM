@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PT13-Daniel-Amarillo</string>
     <string name="chooser_title1">Ho sentim, tria una nova aplicació</string>
+    <string name="battery_level"></string>
 </resources>
