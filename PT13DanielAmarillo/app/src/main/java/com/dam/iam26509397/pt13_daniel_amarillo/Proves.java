@@ -36,7 +36,7 @@ public class Proves extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //registerReceiver(mBatInfoReceiver, new IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED));
         registerReceiver(mBatInfoReceiver, new IntentFilter(Intent.ACTION_BATTERY_LOW));
 
         //IntentFilter iFilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
@@ -76,10 +76,13 @@ public class Proves extends AppCompatActivity {
         try {
             String urlPart1 = url.substring(0, 11);
             String urlPart2 = url.substring(url.length()-4);
-            Pattern p = Pattern.compile(".\\.es");
+            //Pattern p = Pattern.compile(".\\.es");
 
             if (url.equals("http://www.escoladeltreball.org")) {
-                Intent intent = new Intent(Proves.this, NavegadorPropi.class);
+                //Intent intent = new Intent(Proves.this, NavegadorPropi.class);
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                //intent.putExtra(Intent.ACTION_VIEW, Uri.parse(url));
+
                 startActivity(intent);
             } else if (url.isEmpty()) {
                 Toast.makeText(this, "Introduca una URL", Toast.LENGTH_SHORT).show();
@@ -105,7 +108,7 @@ public class Proves extends AppCompatActivity {
     private BroadcastReceiver mBatInfoReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            //Toast.makeText(context, "Bateria baja", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Bateria baja", Toast.LENGTH_SHORT).show();
             Intent battery = new Intent(Proves.this, BatteryReceiver.class);
             startActivity(battery);
         }
