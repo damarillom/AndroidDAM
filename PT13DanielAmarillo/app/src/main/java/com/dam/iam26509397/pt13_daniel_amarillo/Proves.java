@@ -75,7 +75,11 @@ public class Proves extends AppCompatActivity {
         String url = edit.getText().toString();
         try {
             String urlPart1 = url.substring(0, 11);
-            String urlPart2 = url.substring(url.length()-4);
+            String urlPart2 = "";
+            urlPart2 = url.substring(url.length()-3);
+            if (!urlPart2.equals(".es")) {
+                urlPart2 = url.substring(url.length()-4);
+            }
             //Pattern p = Pattern.compile(".\\.es");
 
             if (url.equals("http://www.escoladeltreball.org")) {
@@ -87,7 +91,7 @@ public class Proves extends AppCompatActivity {
                 startActivity(chooser);
             } else if (url.isEmpty()) {
                 Toast.makeText(this, "Introduca una URL", Toast.LENGTH_SHORT).show();
-            } else if (urlPart1.equals("http://www.") && (urlPart2.equals(".com") || urlPart2.equals(".org") ) ) {
+            } else if (urlPart1.equals("http://www.") && (urlPart2.equals(".com") || urlPart2.equals(".org") || urlPart2.equals(".net") || urlPart2.equals(".es") ) ) {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 String title = getResources().getString(R.string.chooser_title2);
                 Intent chooser=Intent.createChooser(browserIntent,title);
