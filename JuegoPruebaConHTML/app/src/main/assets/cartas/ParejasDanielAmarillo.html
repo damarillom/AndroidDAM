@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<META Charset="UTF-8">
+		<style>
+		body { padding: 0px; margin: 0px; }
+	
+		.wrapper {
+			position: absolute;
+			top: 0px;
+			left:0px;
+			margin: auto;
+			padding: 15px;
+			width: 100%;
+			height: 100%;
+			box-sizing: border-box;
+		}
+		.divs {
+			float: left;
+			width: 11.5%;
+			height: 20%;
+			margin: 5px;
+			border: 2px solid black;
+			background-size: 100% 100%;
+		}
+		
+		
+		</style>
+		<script>
+			var intentos = 0;
+			var aciertos = 0;
+			var click = 0;
+			var portada = "url('carta.jpg')";
+			var imagenes = [];
+			var imagenesFac1 = [];
+			var imagenesFac2 = [];
+			var imagenesFac3 = [];
+			var imagenesFac4 = [];
+			var imagenesMed1 = [];
+			var imagenesMed2 = [];
+			function inicio(value) {
+				for (let i = 0; i < 24; i++) {
+					document.getElementById("wrapper").innerHTML += '<div class="divs" id="img' + i +'" onclick="cambiarImagen(this.id)"></div>';
+
+				}
+				ini(value);
+			}
+			function ini(value) {
+				var num = 0;
+				for (i = 0; i < 24; i++) {
+					nom = 'img' + i;
+					document.getElementById(nom).style.backgroundImage = portada;
+				}
+				if (value == 3) {
+					for (i = 0; i < 12; i++) {
+						imagenes[i] = 'url("' + (i + 1)+'.jpg")';
+						num = i + 12;
+						imagenes[num] = 'url("' + (i + 1) +'.jpg")';
+					}
+					imagenes.sort(function(){return Math.random()-0.5});
+				} else if (value == 1) {
+					for (i=0; i < 3; i++) {
+						imagenesFac1[i] = 'url("' + (i + 1)+'.jpg")';
+						num = i + 3;
+						imagenesFac1[num] = 'url("' + (i + 1) +'.jpg")';
+					}
+					imagenesFac1.sort(function(){return Math.random()-0.5});
+					for (i=6; i < 9; i++) {
+						imagenesFac2[i] = 'url("' + (i -2)+'.jpg")';
+						num = i + 3;
+						imagenesFac2[num] = 'url("' + (i -2) +'.jpg")';
+					}
+					imagenesFac2.sort(function(){return Math.random()-0.5});
+					for (i=12; i < 15; i++) {
+						imagenesFac3[i] = 'url("' + (i - 5) +'.jpg")';
+						num = i + 3;
+						imagenesFac3[num] = 'url("' + (i - 5) +'.jpg")';
+					}
+					imagenesFac3.sort(function(){return Math.random()-0.5});
+					for (i=18; i < 21;i++) {
+						imagenesFac4[i] = 'url("' + (i -8)+'.jpg")';
+						num = i + 3;
+						imagenesFac4[num] = 'url("' + (i - 8) +'.jpg")';
+					}
+					imagenesFac4.sort(function(){return Math.random()-0.5});
+					for (i = 0; i < 24; i++){
+						if (i < 6) {
+							imagenes[i] = imagenesFac1[i];
+						}else if (i < 12) {
+							imagenes[i] = imagenesFac2[i - 6];
+						} else if (i < 18) {
+							imagenes[i] = imagenesFac3[i - 12];
+						} else {
+							imagenes[i] = imagenesFac4[i - 18];
+						}
+					}
+				} else {
+					for (i=0; i < 6; i++) {
+						imagenesMed1[i] = 'url("' + (i + 1)+'.jpg")';
+						num = i + 6;
+						imagenesMed1[num] = 'url("' + (i + 1) +'.jpg")';
+					}
+					imagenesMed1.sort(function(){return Math.random()-0.5});
+					for (i=12; i < 18; i++) {
+						imagenesMed2[i] = 'url("' + (i - 5) +'.jpg")';
+						num = i + 6;
+						imagenesMed2[num] = 'url("' + (i - 5) +'.jpg")';
+					}
+					imagenesMed2.sort(function(){return Math.random()-0.5});
+					for (i = 0; i < 24; i++){
+						if (i < 12) {
+							imagenes[i] = imagenesMed1[i];
+						} else {
+							imagenes[i] = imagenesMed2[i - 12];
+						}
+					}
+				}
+			}
+			
+			function cambiarImagen(identificador) {
+				document.getElementById(identificador).style.backgroundImage = imagenes[identificador.substring(3)];
+				border = document.getElementById(identificador).style.border;
+				if (border != "2px solid green") {
+					click = click + 1;
+					if (click == 2) {
+						if (identificador != flip) {
+							if (imagenes[identificador.substring(3)] != imagenes[flip.substring(3)]) {
+								setTimeout (function(){document.getElementById(identificador).style.backgroundImage = portada},450);
+								setTimeout (function(){document.getElementById(flip).style.backgroundImage = portada},450);
+								document.getElementById(identificador).style.border = "2px solid black";
+								document.getElementById(flip).style.border = "2px solid black";
+								intentos++;
+								document.getElementById("fallo").innerHTML = intentos;
+							} else {
+								aciertos++;
+								document.getElementById(identificador).style.border = "2px solid green";
+								document.getElementById(flip).style.border = "2px solid green";
+								document.getElementById("correct").innerHTML = aciertos;
+							}
+							click = 0;
+						} else {
+							click--;
+						}	
+					} else {
+						flip = identificador;
+					}
+				}
+			}	
+
+			function reinicio(value) {
+				//alert(value);
+				var intentos = 0;
+				var aciertos = 0;
+				var click = 0;
+				var portada = "url('carta.jpg')";
+				var imagenes = [];
+				ini(value);
+				for (i = 0; i < 24; i++) {
+					document.getElementById('img'+i).style.border = "2px solid black";
+				}
+			}
+		</script>
+	</head>
+
+	<body onload="inicio(1)">
+		<div class="wrapper" id="wrapper">
+			<select name="dificultad" onchange="reinicio(value)">
+			   <option value="1"> Facil </option> 
+			   <option value="2"> Normal </option> 
+			   <option value="3"> Dificil </option>
+			</select>
+			<h1>Parejas:</h1>
+			<h1 id="correct"></h1>
+			<br>
+			<br>
+			<h1>Fallos:</h1>
+			<h1 id="fallo"></h1>	
+		</div>
+	</body>
+</html>
