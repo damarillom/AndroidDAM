@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/userlabel"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="151dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="36sp"
+        android:layout_marginRight="20dp" />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_below="@id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+<!--        android:button="@drawable/female"
+        android:button="@drawable/male"   -->
+
+    <RadioButton
+        android:id="@+id/female"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:text="Female" >
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/male"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:checked="true"
+        android:text="Male" >
+    </RadioButton>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/createUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:onClick="onClick1"
+        android:text="Create" />
+
+</LinearLayout>

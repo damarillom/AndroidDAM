@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--item android:title="@string/web"
+        android:id="@+id/menuItemWeb"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_android_black_24dp"/>
+    <si hueco, saca texto, si también hay icono -->
+
+    <item android:id="@+id/menuItemShareWhatsApp"
+        android:title="@string/share_whatsapp"
+        app:showAsAction="withText|ifRoom"
+        android:icon="@drawable/ic_action_name" />
+
+    <item android:id="@+id/alerta"
+        android:title="Alerta"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/webview"
+        android:title="Meu navegador"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menuMiss"
+        android:title="Crear missatge"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menuMesIntents"
+        android:title="Més Intents"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menuIUI"
+        android:title="Crear usuari"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menuLearn"
+        android:title="Apren"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menuMaths"
+        android:title="Mates"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menuBotons"
+        android:title="Botons"
+        app:showAsAction="never" />
+
+
+</menu>

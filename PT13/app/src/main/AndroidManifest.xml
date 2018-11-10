@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ausias.pt13" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <!-- els permissos han d'estar activats, aquí només informa i demana permís el primer cop d'execució -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PT13"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MesIntents" />
+
+        <activity android:name=".NavegadorPropi">
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+                  <data android:scheme="http" android:host="www.escoladeltreball.org" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".LoadBattery" />
+        <activity android:name=".Proves" >
+            <!-- a .Proves declaro un intent perque és una activitat que registro per poder obrir des de el meu O un altre projecte -->
+            <!-- a l'altre app la cridaria així, p.ex:
+                Intent intent=new Intent("com.example.ausias.pt13.Proves");
+                String url="http://www.escoladeltreball.org";
+                startActivity(intent);
+                -->
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+            <intent-filter >
+                <action android:name="com.example.ausias.pt13.Proves" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name="com.dam.ebarbeito.pt13.Learn" />
+
+        <activity android:name="com.dam.ebarbeito.pt13.CreaUsuari" />
+
+        <receiver android:name=".ReceiverSMS">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED  "/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

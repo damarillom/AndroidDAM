@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PT13</string>
+    <string name="Accept">Accepta</string>
+    <string name="addAdrText">Afegeix una URL o un missatge per enviar per Whatsapp</string>
+    <string name="accept">Accepta</string>
+    <string name="chooser_title">Ho sentim, escull una altre: Exemple de chooser </string>
+    <string name="settings">Settings</string>
+    <string name="web">Web</string>
+    <string name="share_whatsapp">Whatsapp</string>
+    <string name="fab">Fab</string>
+
+    <string-array name="intents">
+            <item>Open Browser</item>
+            <item>Dial</item>
+            <item>Show Map</item>
+            <item>Search on Map</item>
+            <item>Take picture</item>
+            <item>Pick pictures</item>
+            <item>Show contacts</item>
+            <item>Edit first contact</item>
+        </string-array>
+
+
+
+</resources>
