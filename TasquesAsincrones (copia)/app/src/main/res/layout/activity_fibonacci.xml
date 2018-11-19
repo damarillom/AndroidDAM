@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_fibonacci"
+android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <EditText
+        android:id="@+id/nPosTxt"
+        android:ems="10"
+        android:hint="@string/numPos"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bFib"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_below="@+id/nPosTxt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/fib"
+            android:onClick="fibRec" />
+
+        <Button
+            android:text="@string/fibAsync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_below="@+id/nPosTxt"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="71dp"
+            android:layout_marginEnd="71dp"
+            android:onClick="fibAsy" />
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:ems="10"
+    android:layout_height="wrap_content"
+    android:id="@+id/resFib"
+    />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altres coses a fer mentre calcula" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/menuBotons"
+        android:title="Botons"
+        app:showAsAction="never" />
+
+    <!--item android:id="@+id/menuService"
+        android:title="Servei"
+        app:showAsAction="never" /-->
+
+    <item android:id="@+id/menuFib"
+        android:title="Fib"
+         />
+
+    <item android:id="@+id/menuExamen"
+        android:title="Exerc 1 examen"
+         />
+
+    <item android:id="@+id/menuCalculadora"
+        android:title="Examen ex2 calculadora"
+         />
+
+    <item android:id="@+id/menuGestures"
+        android:title="ListView"
+         />
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="Principal">
+
+        <CheckBoxPreference
+            android:key="mode"
+            android:title="cientific"
+            android:summary="So activat"
+            />
+
+        </PreferenceCategory>
+</PreferenceScreen>

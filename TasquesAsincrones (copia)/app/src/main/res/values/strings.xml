@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TasquesAsincrones</string>
+    <string name="paypal">Paypal</string>
+    <string name="direct">Direct</string>
+    <string name="numPos">numero</string>
+    <string name="fib">Fibonacci</string>
+    <string name="fibAsync">Fibonacci Asincron</string>
+</resources>
