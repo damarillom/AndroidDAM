@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dam.eva.listviewrec">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -19,8 +20,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListViewRec" />
-
-
+        <activity
+            android:name=".Bloc"
+            android:label="@string/title_activity_bloc"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Parsajador"
+            android:label="@string/title_activity_parsajador"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

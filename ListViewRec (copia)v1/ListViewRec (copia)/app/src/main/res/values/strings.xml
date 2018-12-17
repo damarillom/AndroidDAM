@@ -9,5 +9,7 @@
         <item>Menja avellanes</item>
         <item>Nocilla</item>
     </string-array>
+    <string name="title_activity_bloc">Bloc</string>
+    <string name="title_activity_parsajador">Parsajador</string>
 
 </resources>

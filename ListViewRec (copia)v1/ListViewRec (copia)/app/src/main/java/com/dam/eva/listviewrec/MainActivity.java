@@ -18,6 +18,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.xmlpull.v1.XmlPullParserException;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity  {
 
     Button boto, botoDesc;
     private RecyclerView recyclerView;
-    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.Adapter mAdapter,tAdapter;
     private RecyclerView.LayoutManager layoutManager;
     private TextView textView;
     private boolean sdAvailable=false;
@@ -117,7 +119,14 @@ public class MainActivity extends AppCompatActivity  {
 
             result = descarregador.execute(myUrl).get();
 
-            Toast.makeText(this, "Result és:" + result, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Result és:" + result, Toast.LENGTH_SHORT).show();
+
+            Parsajador parser=new Parsajador();
+            List<Bloc> temps=parser.parseja(result);
+            if (!(result==null)) {
+                tAdapter = new CiutatAdapter(temps);
+                recyclerView.setAdapter(tAdapter);
+            }
 
         } catch (ExecutionException e) {
             e.printStackTrace();
@@ -126,6 +135,8 @@ public class MainActivity extends AppCompatActivity  {
             e.printStackTrace();
             Log.d("test", "onClickDesc: "+e.getMessage());
 
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
         }
 
     }
